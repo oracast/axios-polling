@@ -20,6 +20,8 @@ export class LoopObserver {
   ) {}
 
   remove() {
+    console.log('this.stacks')
+    console.log(this.stacks)
     this.stacks.error = []
     this.stacks.request = []
     this.stacks.response = []
